@@ -1,0 +1,13 @@
+python-assignment-c8243-hasan
+
+
+fib_last = int(input("fibonacci kaça kadar sıralansın: "))
+fibonacci = [] 
+fib_value1 = 0
+fib_value2 = 1
+while fib_value2 < fib_last:
+    fibonacci.append(fib_value2)
+    x = fib_value2
+    fib_value2 += fib_value1
+    fib_value1 = x 
+print(fibonacci)
