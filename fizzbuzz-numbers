@@ -1,0 +1,9 @@
+sayı = int(input("Bir sayı giriniz: "))
+if sayı%3 == 0 and sayı%5 == 0:
+      print(sayı, "bir FizzBuzz'dur.")
+elif sayı%3 == 0:
+      print(sayı, "bir Fizz'dir.")
+elif sayı%5 == 0:
+      print(sayı, "bir Buzz'dur.")
+else:
+      print(sayı, "bir Fizz veya Buzz değildir.")
